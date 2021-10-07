@@ -40,9 +40,8 @@ body {
 
 .navbar a {
     padding: 10px;
-    margin: 0 5px;
-    font-size: 2.3rem;
     margin: 0 50px;
+    font-size: 2.3rem;
 }
 
 .navbar .selected {
@@ -107,4 +106,19 @@ a {
 .navbar img {
     width: 150px;
     height: auto;
+}
+
+/* smaller desktops */
+@media (max-width: 1250px) {
+    .navbar a {
+        padding: 10px 8px;
+        font-size: 1.5rem;
+        margin: 0 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        display: none;
+    }
 }
